@@ -1,37 +1,39 @@
-# Mantine Next.js template
+# VideoDubber.ai - Technical Assignment
+# Product Hunt Page Clone
 
-This is a template for [Next.js](https://nextjs.org/) app router + [Mantine](https://mantine.dev/).
-If you want to use pages router instead, see [next-pages-template](https://github.com/mantinedev/next-pages-template).
+## Overview
 
-## Features
+This repository contains a clone of the Product Hunt homepage UI, specifically focusing on the area up to the "Upvoted" button. The project is built using Next.js, Mantine UI framework, and Tailwind CSS. 
+## Project Requirements
 
-This template comes with the following features:
+- **Framework**: Next.js
+- **UI Framework**: Mantine UI
+- **CSS**: Tailwind CSS
+- **Mobile-Friendly Design**: Ensure responsiveness and proper padding.
 
-- [PostCSS](https://postcss.org/) with [mantine-postcss-preset](https://mantine.dev/styles/postcss-preset)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Storybook](https://storybook.js.org/)
-- [Jest](https://jestjs.io/) setup with [React Testing Library](https://testing-library.com/docs/react-testing-library/intro)
-- ESLint setup with [eslint-config-mantine](https://github.com/mantinedev/eslint-config-mantine)
+## Setup Instructions
 
-## npm scripts
+To run this project locally, follow these steps:
 
-### Build and dev scripts
+1. **Clone the Repository**
 
-- `dev` – start dev server
-- `build` – bundle application for production
-- `analyze` – analyzes application bundle with [@next/bundle-analyzer](https://www.npmjs.com/package/@next/bundle-analyzer)
+    ```bash
+    git clone https://github.com/Doraemon012/VideoDubber.ai---Technical-Assignment.git
+    cd next-app-template-master
+    ```
 
-### Testing scripts
+2. **Install Dependencies**
 
-- `typecheck` – checks TypeScript types
-- `lint` – runs ESLint
-- `prettier:check` – checks files with Prettier
-- `jest` – runs jest tests
-- `jest:watch` – starts jest watch
-- `test` – runs `jest`, `prettier:check`, `lint` and `typecheck` scripts
+    ```bash
+    npm install
+    ```
 
-### Other scripts
+3. **Run the Development Server**
 
-- `storybook` – starts storybook dev server
-- `storybook:build` – build production storybook bundle to `storybook-static`
-- `prettier:write` – formats all files with Prettier
+    ```bash
+    npm run dev
+    ```
+
+    The application will be available at `http://localhost:3000` (or as listed in the terminal)
+
+
